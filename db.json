@@ -1,7 +1,42 @@
 {
-"getSubscription" : [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-]
+"getSubscription" : {subscriptionGroups: [
+    {
+        subscriptionGroupCode: "Code-C",
+        documentList: [
+            {
+                documentCode: "C01",
+                documentHeader:
+                    "Licence to Export/Re-export Endangered Species",
+                documentDetail:
+                    "Agriculture, Fisheries and Conservation Department",
+                documentImage: "dept-dh",
+            },
+            {
+                documentCode: "C02",
+                documentHeader:
+                    "Licence to Import/Introduce from the Sea for Endangered Species",
+                documentDetail:
+                    "Agriculture, Fisheries and Conservation Department",
+                documentImage: "dept-dh",
+            },
+        ],
+        status: "",
+        pga: "dh",
+    },
+    {
+        subscriptionGroupCode: "Code-CC",
+        documentList: [
+            {
+                documentCode: "C05",
+                documentHeader:
+                    "Licence to Export/Re-export Endangered Species",
+                documentDetail:
+                    "Agriculture, Fisheries and Conservation Department",
+                documentImage: "dept-afcd",
+            },
+        ],
+        status: "",
+        pga: "afcd",
+    },
+],}
 }
